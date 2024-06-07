@@ -1,0 +1,32 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--accent-color);
+    margin-top: 2rem;
+    &-text {
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    &-image {
+      height: 20rem;
+      padding: 1rem;
+    }
+    &-links {
+      display: flex;
+      gap: 2rem;
+      margin-top: 2rem;
+      cursor: pointer;
+      a {
+        color: var(--accent-color);
+        svg {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
